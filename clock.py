@@ -6,6 +6,7 @@ import os, sys
 import time
 os.system("pip install telethon")
 os.system("pip install aiocron")
+os.system("clear")
 
 print("""\033[31m
 ▄▄▄█████▓  ▄████     ▄████▄   ██▓     ▒█████   ▄████▄   ██ ▄█▀
