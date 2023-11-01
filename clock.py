@@ -7,6 +7,7 @@ import asyncio, aiocron, datetime
 from telethon import TelegramClient, events, sync, functions, types
 from telethon.tl.functions.account import UpdateProfileRequest
 from telethon.sessions import StringSession
+from telethon.errors import SessionPasswordNeededError
 import time
 os.system("clear")
 
