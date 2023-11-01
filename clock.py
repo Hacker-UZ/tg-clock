@@ -1,3 +1,4 @@
+import os, sys
 os.system("pip install telethon")
 os.system("pip install aiocron")
 os.system("pip isntall asyncio")
@@ -6,7 +7,6 @@ import asyncio, aiocron, datetime
 from telethon import TelegramClient, events, sync, functions, types
 from telethon.tl.functions.account import UpdateProfileRequest
 from telethon.sessions import StringSession
-import os, sys
 import time
 os.system("clear")
 
